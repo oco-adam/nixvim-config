@@ -1,5 +1,4 @@
 {
-  programs.nixvim = {
     plugins.tagbar = {
       enable = true;
       extraConfig.width = 50;
@@ -13,5 +12,4 @@
        options.silent = true;
      }
    ];
-  };
 }

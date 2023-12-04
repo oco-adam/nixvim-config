@@ -1,5 +1,5 @@
 {
-  programs.nixvim.plugins.floaterm = {
+  plugins.floaterm = {
     enable = true;
 
     width = 0.8;

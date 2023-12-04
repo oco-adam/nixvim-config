@@ -1,5 +1,4 @@
 {
-  programs.nixvim = {
     plugins.telescope = {
       enable = true;
 
@@ -31,5 +30,4 @@
         set_env.COLORTERM = "truecolor";
       };
     };
-  };
 }
