@@ -16,7 +16,7 @@
   #
   extraPlugins = with pkgs.vimPlugins; [
       rose-pine
-      vim-go
+      # vim-go
   ];
     colorscheme = "rose-pine";
     viAlias = true;

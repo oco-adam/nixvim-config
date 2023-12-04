@@ -1,5 +1,4 @@
 {
-  programs.nixvim = {
     plugins = {
       lsp = {
         enable = true;
@@ -27,6 +26,7 @@
         servers = {
           bashls.enable = true;
           clangd.enable = true;
+          gopls.enable = true;
           nil_ls.enable = true;
           lua-ls.enable = true;
           texlab.enable = true;
@@ -34,5 +34,4 @@
         };
       };
     };
-  };
 }
