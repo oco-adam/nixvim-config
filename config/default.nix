@@ -14,7 +14,10 @@
 
   #   defaultEditor = true;
   #
-    extraPlugins = [ pkgs.vimPlugins.rose-pine ];
+  extraPlugins = with pkgs.vimPlugins; [
+      rose-pine
+      vim-go
+  ];
     colorscheme = "rose-pine";
     viAlias = true;
     vimAlias = true;
